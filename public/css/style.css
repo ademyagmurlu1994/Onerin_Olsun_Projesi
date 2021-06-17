@@ -1,0 +1,209 @@
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+/* html,body{
+background-image: url('../images/489290.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+} */
+
+#login .container{
+height: 100%;
+align-content: center;
+}
+
+ #login .card{
+height: 350px;
+margin-top: auto;
+margin-bottom: auto;
+width: 600px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+#login .social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+#login .social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+#login .card-header{
+    background-color: rgba(255, 192, 18, 0.95) !important;
+}
+#login .card-header h3{
+color: black;
+}
+
+#login .social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+#login .input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+#login input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+#login .remember{
+color: white;
+}
+
+#login .remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+#login .login_btn:hover{
+color: black;
+background-color: white;
+}
+
+#login .links{
+color: white;
+}
+
+#login .links a{
+margin-left: 4px;
+}
+
+
+
+/* Register 
+/*
+html, body{
+    background-image: url('../images/parolami_unuttum_background.jpg');
+    /*background-image: url('../images/register_background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+}*/
+
+#register .container{
+    height: 100%;
+    align-content: center;
+}
+
+#register .card{
+    margin-top: 20px;
+    margin-bottom: auto;
+    width: 600px;
+    background-color: rgba(0,0,0,0.5) !important;
+    }
+
+#register .card-header{
+    background-color: rgb(0, 0, 0, 0.3);
+}
+#register .card-header h3{
+color: white;
+text-align: center;
+}
+#register .card-footer{
+    color: white;
+    background-color: rgba(0,0,0,0.5) !important;
+    text-align: center;
+}
+#register .input-group-prepend span{
+width: 50px;
+background-color: #83b7ec;
+color: black;
+border:0 !important;
+}
+
+#register input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+#register .notification{
+color: white;
+}
+
+#register .notification input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+#register .register_btn:hover{
+color: black;
+background-color: white;
+}
+
+#register .links{
+color: white;
+}
+
+#register .links a{
+margin-left: 4px;
+color: rgb(231, 255, 18);
+}
+
+#register .btn_register{
+    background-color: rgb(2, 0, 56);
+    color: rgb(255, 255, 255);
+    border: solid rgb(255, 255, 255);
+    height: 50px;
+}
+
+
+/* Parolamı unuttum */
+#forgot_password .container{
+    height: 100%;
+    align-content: center;
+}
+
+#forgot_password .card{
+    height: 350px;
+    margin-top: 20px;
+    margin-bottom: auto;
+    width: 600px;
+    background-color: rgba(0,0,0,0.5) !important;
+    }
+
+#forgot_password .card-header{
+    background-color: rgb(0, 0, 0, 0.3);
+}
+#forgot_password .card-header h3{
+color: white;
+text-align: center;
+}
+#forgot_password .card-footer{
+    color: white;
+    background-color: rgba(0,0,0,0.5) !important;
+    text-align: center;
+}
+#forgot_password .input-group-prepend span{
+width: 50px;
+background-color: #e207f1;
+color: black;
+border:0 !important;
+}
+
+#forgot_password input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
